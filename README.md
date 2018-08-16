@@ -4,4 +4,4 @@
 
 * Deploy to Zeit Now with command : `now --docker`
 
-* Testing json file : `curl https://json-test-api.now.sh//people | jq .[] | jq .first_name`
+* Testing json file : `curl https://json-test-api.now.sh/people | jq .[] | jq .first_name`
