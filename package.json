@@ -2,8 +2,9 @@
   "name": "json-test-api",
   "version": "1.0.0",
   "description": "Json Rest API with zeit-now, json-server and docker",
-  "main": "index.js",
+  "main": "db.js",
   "scripts": {
+    "start": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

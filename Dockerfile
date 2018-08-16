@@ -1,6 +1,6 @@
 FROM mhart/alpine-node
 
-WORKDIR /landr-json-server
+WORKDIR .
 ADD . .
 RUN apk add --no-cache curl make gcc g++ python
 RUN npm install
