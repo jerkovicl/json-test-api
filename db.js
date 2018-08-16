@@ -1,7 +1,7 @@
-var people = require('./people')
+var db = require('./db')
 
 module.exports = function() {
   return {
-    people:people
+    db:db
   }
 }
