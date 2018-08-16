@@ -1,8 +1,7 @@
 # json-test-api
-Json Rest API with zeit-now, json-server and docker
 
-`now --docker`
+> Json Rest API with zeit-now, json-server and docker
 
-`curl https://json-test-api-esuwjacamo.now.sh/people | jq`
+* Deploy to Zeit Now with command : `now --docker`
 
-`curl https://json-test-api-esuwjacamo.now.sh/people | jq .[] | jq .first_name`
+* Testing json file : `curl https://json-test-api.now.sh//people | jq .[] | jq .first_name`
