@@ -1,0 +1,23 @@
+{
+  "name": "json-test-api",
+  "version": "1.0.0",
+  "description": "Json Rest API with zeit-now, json-server and docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerkovicl/json-test-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerkovicl/json-test-api/issues"
+  },
+  "homepage": "https://github.com/jerkovicl/json-test-api#readme",
+  "devDependencies": {
+    "json-server": "^0.14.0"
+  }
+}
